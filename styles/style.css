@@ -98,9 +98,6 @@
 
 .two-columns__brief {
   width: 175px;
-}
-
-.two-columns__title {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -248,12 +245,14 @@
 
 .section-title_theme_dark {
   color: white;
+  position: relative;
   z-index: 2;
 }
 
 .section-subtitle_theme_dark {
   color: white;
-  z-index: 1;
+  position: relative;
+  z-index: 2;
 }
 
 .table_theme_dark {
@@ -370,7 +369,7 @@
   margin: 0 0 16px 0;
 }
 
-.footer__icon-social {
+.footer__social-icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;

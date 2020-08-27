@@ -1,0 +1,8 @@
+.footer__column_content_social {
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.footer__column_content_social li:last-of-type {
+  margin: 0 0 16px 0;
+}

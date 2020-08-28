@@ -7,8 +7,11 @@
   font-weight: normal;
   color: black;
   text-decoration: none;
+  opacity: 1;
+  transition: opacity 0.4s;
 }
 
-/* .feynman__link:hover {
-  color: red;
-} */
+.feynman__link:hover {
+  opacity: 0.5;
+}
+

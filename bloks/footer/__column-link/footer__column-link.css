@@ -4,8 +4,11 @@
   font-size: 18px;
   font-weight: normal;
   color: white;
+  opacity: 1;
+  transition: opacity 0.3s;
 }
 
 .footer__column-link:hover {
-  color: red;
+  color: lightcoral;
+  opacity: 0.7;
 }

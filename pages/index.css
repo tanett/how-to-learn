@@ -1,8 +1,10 @@
+@import url(../vendor/normalize.css);
+
 @import url(../bloks/page/page.css);
 
 @import url(../bloks/header/header.css);
 @import url(../bloks/logo/logo.css);
-@import url(../bloks/logo/_place_header/logo_place_header.css);
+@import url(../bloks/logo/_place/_header/logo_place_header.css);
 @import url(../bloks/header/__title/header__title.css);
 @import url(../bloks/header/__subtitle/header__subtitle.css);
 @import url(../bloks/header/__link/header__link.css);
@@ -59,22 +61,23 @@
 @import url(../bloks/feynman/__link/feynman__link.css);
 
 @import url(../bloks/kaufman/kaufman.css);
-@import url(../bloks/section-title/_theme_dark/section-title_theme_dark.css);
-@import url(../bloks/section-subtitle/_theme_dark/section-subtitle_theme_dark.css);
-@import url(../bloks/table/_theme_dark/table_theme_dark.css);
-@import url(../bloks/table/__cell/_theme_dark/table__cell_theme_dark.css);
-@import url(../bloks/table/__heading/_theme_dark/table__heading_theme_dark.css);
-@import url(../bloks/table/__text/_theme_dark/table__text_theme_dark.css);
+@import url(../bloks/section-title/_theme/_dark/section-title_theme_dark.css);
+@import url(../bloks/section-subtitle/_theme/_dark/section-subtitle_theme_dark.css);
+@import url(../bloks/table/_theme/_dark/table_theme_dark.css);
+@import url(../bloks/table/__cell/_theme/_dark/table__cell_theme_dark.css);
+@import url(../bloks/table/__heading/_theme/_dark/table__heading_theme_dark.css);
+@import url(../bloks/table/__text/_theme/_dark/table__text_theme_dark.css);
 @import url(../bloks/kaufman/__triangle/kaufman__triangle.css);
 
 @import url(../bloks/resources/resources.css);
 @import url(../bloks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../bloks/resources/__logo/resources__logo.css);
+@import url(../bloks/resources/__link/resources__link.css);
 
 @import url(../bloks/footer/footer.css);
 @import url(../bloks/footer/__columns/footer__columns.css);
 @import url(../bloks/footer/__column/_content_copyright/footer__column_content_copyrifht.css);
-@import url(../bloks/logo/_place_footer/logo_place_footer.css);
+@import url(../bloks/logo/_place/_footer/logo_place_footer.css);
 @import url(../bloks/footer/__author/footer__author.css);
 @import url(../bloks/footer/__column/_content_info/footer__column_content_info.css);
 @import url(../bloks/footer/__column/_content_social/footer__column_content_social.css);
